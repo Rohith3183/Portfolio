@@ -58,16 +58,16 @@ typeEffect();
    CURSOR GLOW EFFECT
 ========================= */
 
-const glow = document.querySelector(".cursor-glow");
+// const glow = document.querySelector(".cursor-glow");
 
-document.addEventListener("mousemove", (e) => {
+// document.addEventListener("mousemove", (e) => {
 
-  if (!glow) return;
+//   if (!glow) return;
 
-  glow.style.left = e.clientX + "px";
-  glow.style.top = e.clientY + "px";
+//   glow.style.left = e.clientX + "px";
+//   glow.style.top = e.clientY + "px";
 
-});
+// });
 
 /* =========================
    SCROLL REVEAL
